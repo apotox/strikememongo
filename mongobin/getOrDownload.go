@@ -108,7 +108,7 @@ func GetOrDownloadMongod(urlStr string, cachePath string, logger *strikememongol
 
 	// Extract to a temp file first, then copy to the destination, so we get
 	// atomic behavior if there's multiple parallel downloaders
-	mongodTmpFile, tmpFileErr := afs.TempFile("", "")
+	mongodTmpFile, tmpFileErr := afs.TempFile(dirPath, "mongod_tmp*")
 	if tmpFileErr != nil {
 		return "", fmt.Errorf("error creating temp file for mongod: %s", tmpFileErr)
 	}
