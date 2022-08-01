@@ -14,8 +14,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/apotox/strikememongo/strikememongolog"
 	"github.com/spf13/afero"
-	"github.com/strikesecurity/strikememongo/strikememongolog"
 )
 
 var afs afero.Afero

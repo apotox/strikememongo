@@ -13,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/strikesecurity/strikememongo/monitor"
-	"github.com/strikesecurity/strikememongo/strikememongolog"
+	"github.com/apotox/strikememongo/monitor"
+	"github.com/apotox/strikememongo/strikememongolog"
 )
 
 // Server represents a running MongoDB server

@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/strikesecurity/strikememongo/mongobin"
-	"github.com/strikesecurity/strikememongo/strikememongolog"
+	"github.com/apotox/strikememongo/mongobin"
+	"github.com/apotox/strikememongo/strikememongolog"
 )
 
 // Options is the configuration options for a launched MongoDB binary
